@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1
+        style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; text-decoration: underline;">
+        Guess the Number</h1>
+    <div class="container">
+        <p>Try and Guess a random no. between 1 to 100</p>
+        <p class="container">You have 10 attempts to guess a no.</p>
+        <input type="text" placeholder="Enter a valid number" class="container" id="guessedNumber"><br>
+        <button class="container" style="cursor: pointer; padding: 15px; background-color: black; color: white;"
+            id="submit">SUBMIT</button><br>
+        <p class="container">Previous Guesses:<span id="prevGuess"></span></p>
+        <p class="container">Guess Remaining: <span id="remGuess">10</span></p>
+        <span id="result"></span>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
